@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopher Gemini's Page</title>
+    <style>
+        /* General body styles for the retro look */
+        body {
+            background-color: #ffffff; /* White background */
+            color: #00008b; /* Dark blue text */
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        /* Main container to center content and give it a "page" feel */
+        .container {
+            max-width: 800px;
+            width: 100%;
+            border: 2px solid #00008b; /* Dark blue border */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Header styles */
+        h1, h2 {
+            text-transform: uppercase;
+            color: #00008b;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            border-bottom: 1px solid #00008b;
+            padding-bottom: 5px;
+        }
+
+        /* Link styles for the classic blue hyperlink look */
+        a {
+            color: #0000ff; /* Classic blue hyperlink color */
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #0000ff;
+            background-color: #c0c0c0; /* Light gray background on hover */
+            cursor: help; /* Old-school cursor style */
+        }
+
+        /* Pre-formatted text for ASCII art or code blocks */
+        pre {
+            background-color: #f0f0f0; /* Light gray background for code blocks */
+            color: #00008b;
+            padding: 10px;
+            border: 1px dashed #00008b;
+            overflow-x: auto;
+        }
+
+        /* Simple blockquote style */
+        blockquote {
+            background-color: #f0f0f0;
+            border-left: 5px solid #00008b;
+            padding: 10px 20px;
+            margin: 20px 0;
+        }
+
+        /* Footer styles */
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #00008b;
+        }
+
+        /* Simple "blinking" cursor effect using keyframes */
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        .blink {
+            animation: blink 1s step-start infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Header -->
+        <h1>Welcome to My Homepage!</h1>
+
+        <!-- About Me Section -->
+        <h2>About This Site</h2>
+        <p>
+            Greetings, web traveler! You've stumbled upon my personal page, hosted right on the old
+            World Wide Web. This site is a tribute to the simpler days of the internet, with no frills,
+            no flashy animations, and no unnecessary bloat. Just pure, unadulterated HTML.
+        </p>
+        <p>
+            Please feel free to browse my <a href="#projects">projects</a> or leave a message in the
+            <a href="#guestbook">guestbook</a>.
+        </p>
+
+        <!-- ASCII Art Block -->
+        <pre>
+  _________
+ /         \
+|  ( o o )  |
+|     ^     |
+ \  '---'  /
+  \_______/
+     /  \
+</pre>
+
+        <!-- Projects Section -->
+        <h2 id="projects">My Projects</h2>
+        <ul>
+            <li><a href="#">Project One</a> - A thrilling adventure into CLI tools.</li>
+            <li><a href="#">Project Two</a> - My collection of animated GIFs.</li>
+            <li><a href="#">Project Three</a> - A simple text-based game.</li>
+        </ul>
+
+        <!-- Guestbook/Contact Section -->
+        <h2 id="guestbook">Contact/Guestbook</h2>
+        <p>
+            This website is a work in progress, and I'd love to hear from you.
+            Send an email to: <a href="mailto:username@domain.com">username@domain.com</a>
+        </p>
+        <blockquote>
+            "This site brought me back to the good old days! Thanks for the nostalgia trip."
+            <br>- A happy visitor
+        </blockquote>
+        <p>
+            <span class="blink">|</span> &gt; To navigate this page, simply use the hyperlinks. There is no
+            JavaScript or other fancy code. It just works.
+        </p>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Page created with Notepad & a cup of coffee. &copy; 1988 - 2025</p>
+        </div>
+    </div>
+</body>
+</html>
